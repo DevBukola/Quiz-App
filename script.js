@@ -159,7 +159,7 @@ function chooseAnswer(event) {
 function displayScore() {
   resetState();
   questionEl.innerHTML = `Thank you for playing, <span class='username'>${name}</span>. You scored ${score} out of ${questions.length} questions!`;
-  nextBtn.innerHTML = "Play again";
+  nextBtn.innerHTML = "Take Another Shot";
   nextBtn.style.display = "block";
   questionListing.style.display = "none";
 }
