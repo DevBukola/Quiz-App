@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  background: #1f2937;
+}
+
+.quiz-container {
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto 0;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 6px;
+}
+
+.user-details-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-details h1 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #a14a08;
+  margin-bottom: 8px;
+}
+
+.user-details p {
+  font-size: 16px;
+  color: #a14a08;
+}
+
+.username {
+  color: green;
+  /* color: #1f2937; */
+}
+
+.user-img {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+
+.title {
+  font-size: 25px;
+  /* text-align: center; */
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333;
+  color: #1d8153;
+}
+
+#question {
+  font-size: 20px;
+  margin-top: 16px;
+  color: #a14a08;
+}
+
+#answers {
+  margin-top: 20px;
+}
+
+.btn {
+  background: #fff;
+  color: #222;
+  font-weight: 500;
+  width: 100%;
+  border: 1px solid #222;
+  padding: 15px 10px;
+  margin: 10px 0;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.btn:hover:not([disabled]) {
+  background: #1f2937;
+  color: white;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
+#next-btn {
+  color: white;
+  background: #1f2937;
+  font-weight: 500;
+  border-radius: 6px;
+  width: 160px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 20px auto 0;
+  cursor: pointer;
+  display: block;
+}
+
+.correct {
+  background: #91fbbf;
+}
+
+.incorrect {
+  background: #ff9393;
+}
+
+.listings {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.listing-header {
+  font-size: 22px;
+  margin-top: 15px;
+  color: #a14a08;
+}
+
+.listing {
+  font-size: 30px;
+  color: #a14a08;
+}
+
+.color-listing {
+  color: #1d8153;
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+
+  .user-details h1 {
+    font-size: 20px;
+  }
+
+  .user-details p {
+    font-size: 14px;
+  }
+
+  .title {
+    font-size: 20px;
+    margin-top: 16px;
+    padding-bottom: 10px;
+  }
+
+  #question {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  #answers {
+    margin-top: 12px;
+  }
+
+  .btn {
+    margin: 8px 0;
+  }
+
+  .listing-header {
+    font-size: 18px;
+  }
+}
