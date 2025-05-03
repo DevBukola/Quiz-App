@@ -94,6 +94,7 @@ body {
 #next-btn {
   color: white;
   background: #1f2937;
+  /* background: #1d8153; */
   font-weight: 500;
   border-radius: 6px;
   width: 160px;
@@ -106,11 +107,13 @@ body {
 }
 
 .correct {
-  background: #91fbbf;
+  /* background: #91fbbf; */
+  background: #1d8153;
 }
 
 .incorrect {
-  background: #ff9393;
+  /* background: #ff9393; */
+  background: red;
 }
 
 .listings {
